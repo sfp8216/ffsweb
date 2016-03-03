@@ -5,6 +5,10 @@ padding-left:66px;
 margin-left:auto;
 margin-right:auto;
 }
+/*Overriden styles*/
+.jumbotron p{
+	font-size:12pt;
+}
 .fs-header{
     background-color: #2E593E;
     color:white;
@@ -12,7 +16,7 @@ margin-right:auto;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: center;
-	font: normal 18px sans-serif;
+	font: normal 16px sans-serif;
 	padding: 10px;
 }
 .fs-nav{
@@ -89,6 +93,16 @@ box-shadow: 10px red;
 text-align:center;
 }
 
+/*Testimonials*/
+.testimonials li:nth-child(odd){
+	font-size: 14pt;
+	padding:20px 0px 0px 0px;
+	list-style-type:none;
+}
+.testimonials li:nth-child(even){
+	list-style-type:none;
+}
+
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -108,9 +122,6 @@ text-align:center;
   .nav-justified .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
     font-size:20pt;
-
-
-
   }
   .nav-justified .open .dropdown-menu > li > a {
       width:100%;
