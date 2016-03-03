@@ -103,7 +103,22 @@ text-align:center;
 	list-style-type:none;
 }
 
-
+/*About us*/
+    .cpic{
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+	padding:15px;
+	padding-left:30px;
+	padding-bottom:30px;
+    }
+    .epic{
+   -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+	padding:15px;
+	padding-right:50px;
+    }
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
