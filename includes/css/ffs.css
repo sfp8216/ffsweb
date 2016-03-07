@@ -36,7 +36,6 @@ background:orange;
 }
 .dropdown-menu{
   width:100%;
- 
   background-color:#2E593E;
 }
 .dropdown-menu>li>a{
@@ -148,9 +147,13 @@ text-align:center;
   .nav-justified .open .dropdown-menu > li > a {
       width:100%;
       text-align:center;
-      background: white;
-    line-height: 20px;
-    color:green;
+	  padding-top:10px;
+	  padding-bottom:10px;
+	  line-height: 20px;
+	  color:white;
+  }
+  .nav-justified .open .dropdown-menu{
+	  background:#57A875;
   }
 
   .nav-justified .open .dropdown-menu > li > a:hover,
