@@ -1,6 +1,6 @@
 <?php
 
-function header($breadcrum){
+function generateHead($breadcrum){
 	echo "
 	<!DOCTYPE html>
 <html lang='en'>
@@ -22,11 +22,19 @@ function header($breadcrum){
     <![endif]-->
   </head>
   <body>
-  <div class='container fs-header'>
-    <h1>Frank 'n Stein and Son</h1>
+  <div class='fs-header'>
+  <div class='container'>
+  <div class='col-md-offset-1 col-md-2'>
+	<img class='img-responsive pull-left' src='includes/img/logo.png'/>
+	</div>
+	<div class='col-md-6'>
+    <h1>Frank 'N Stein and Son</h1>
     <h5>Professional Tutoring, Test Prep, and Learning</h5>
     <h3>(585)-451-9250</h3>
     <h3>Brighton, New York</h3>
+	</div>
+	<div class='col-md-3'></div>
+</div>
 </div>
     <nav class='navbar navbar-default container fs-nav'>
   <div class='container-fluid'>
@@ -44,7 +52,11 @@ function header($breadcrum){
              <li class='dropdown'>
           <a class='dropdown-toggle' role='button' aria-expanded='false' href='#' data-toggle='dropdown'>Services <span class='caret'></span></a>
           <ul class='dropdown-menu' role='menu'>
-            <li><a href='services.php'>Tutoring Services</a></li>
+            <li><a href='services.php#middleschool'>Grades 6 -8 </a></li>
+			<li><a href='services.php#highschool'>Grades 9 -12 </a></li>
+			<li><a href='services.php#sat'>Standardized Tests</a></li>
+			<li><a href='services.php#esl'>ESL/ESOL</a></li>
+			<li><a href='services.php#essay'>Essay Assistance</a></li>
           </ul>
         </li>
             <li><a href='testimonials.php'>Testimonials</a></li>
@@ -57,12 +69,14 @@ function header($breadcrum){
 </nav>
 <div class='jumbotron container'>
 ";
-	
-	
-	
+}
+function addScripts($scripts){
+	$includeScripts = "";
+	$includeScripts +=  "<script src='includes/js/"+$scripts+"'></script>";
+echo $includeScripts;
 }
 
-function footer($breadcrum){
+function footer($breadcrum, $scripts){
 echo "</div><!--Main Body  -->
 		<footer class='footer-basic-centered'>
 			<p class='footer-company-motto'>Where every student is our only student!</p>
@@ -82,9 +96,13 @@ echo "</div><!--Main Body  -->
 			<p class='footer-company-name'>Frank n' Stein and Son, LLC &copy; 2015</p>
 		</footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+	<script src='includes/js/jquery-1.12.1.min.js'></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+	
     <script src='includes/js/bootstrap.min.js'></script>
+	<script src='includes/js/scripts.js'></script>";
+	addScripts($scripts);
+	echo "
   </body>
 </html>";
 }

@@ -1,58 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Frank 'N Stein and Son,LLC</title>
-    <!-- Bootstrap -->
-    <link href="includes/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="includes/css/ffs.css"/>
+<?php
+require_once("includes/funcs/includes.php");
+generateHead("");
+?>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-  <div class='container fs-header'>
-    <h1>Frank 'n Stein and Son</h1>
-    <h5>Professional Tutoring, Test Prep, and Learning</h5>
-    <h3>(585)-451-9250</h3>
-    <h3>Brighton, New York</h3>
-</div>
-    <nav class="navbar navbar-default container fs-nav">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse nav-navbar navbar-collapse" id="bs-example-navbar-collapse-1">
-     <ul class="nav nav-justified">
-            <li class="active"><a href="index.html">Home</a></li>
-             <li class="dropdown">
-          <a class="dropdown-toggle" role="button" aria-expanded="false" href="#" data-toggle="dropdown">Services <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="services.html">Tutoring Services</a></li>
-          </ul>
-        </li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-    </div>
-  </div>
-</nav>
-<div class="jumbotron container">
-
+<a href="#" id="middleschool"></a>
 <h2>Grades 6 - 8</h2>
 We offer tutoring in most middle school level courses, including:
 <br>
@@ -78,6 +29,7 @@ strengths, and focuses on creating a positive, fun learning experience.
 
 <br>
 <br>
+<a href="#" id="highschool"></a>
 <h2>Grades 9-12</h2>
 We offer tutoring in a number of high school subjects:
 <br>
@@ -101,6 +53,7 @@ student's strengths, and focuses on creating a positive and comfortable learning
 Mr. Eric Cohen holds a degree in Engineering Science from the University of Rochester.
 Eric brings to Frank ‘N Stein and Son his extensive experience in teaching and
 tutoring advanced math and science courses.
+<a href="#" id="sat"></a>
 <h2>SAT/ACT/TEAS/TASC/GED</h2>
 Frank 'N Stein and Son will help you prepare for standardized tests, including:
 <ul>
@@ -117,6 +70,7 @@ She will help students with writing skills for the essay portion of standardized
 Dr. Stein holds a BA in English from the University of Rochester and BS in biology
 and DPM degrees from Scholl College of Podiatric Medicine in Chicago, Illinois.
 
+<a href="#" id="esl"></a>
 <h2>ESL/ESOL</h2>
 Dr. Stein is available to teach English as a Second Language with an emphasis on English
 conversation.  Depending on the needs/desire of the student, sessions can include
@@ -124,32 +78,11 @@ instruction in English writing and grammar.  Dr. Stein holds a BA in English fro
 the University of Rochester and her experience includes teaching ESL at Berlitz
 in both Rochester, New York and Chicago, Illinois.
 
+<a href="#" id="essay"></a>
 <h2>Essay Assistance and Editing</h2>
 Dr. Stein is available to work with students one-on-one to create great essays for
 college applications or other writing assignments.  She can help students brainstorm
 ideas, write an outline, write the body of the essay, or proofread and edit a completed essay.
-
-</div><!--Main Body  -->
-    <footer class="footer-basic-centered">
-			<p class="footer-company-motto">Where every student is our only student!</p>
-			<p class="footer-links">
-				<a href="#">Home</a>
-				·
-				<a href="#">Services</a>
-				·
-				<a href="#">Testimonials</a>
-				·
-				<a href="#">Pricing</a>
-				·
-				<a href="#">About</a>
-				·
-				<a href="#">Contact</a>
-			</p>
-			<p class="footer-company-name">Frank 'N Stein and Son, LLC &copy; 2015</p>
-		</footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="includes/js/bootstrap.min.js"></script>
-  </body>
-</html>
+<?php
+footer("","scripts.js");
+?>

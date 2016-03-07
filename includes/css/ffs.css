@@ -14,10 +14,8 @@ margin-right:auto;
     color:white;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
-	width: 100%;
 	text-align: center;
 	font: normal 16px sans-serif;
-	padding: 10px;
 }
 .fs-nav{
 font-size:20pt;
@@ -36,9 +34,18 @@ background:orange;
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
 background:orange;
 }
-.dropdown-menu>li>a{
-    width:200px;
+.dropdown-menu{
+  width:100%;
+ 
+  background-color:#2E593E;
 }
+.dropdown-menu>li>a{
+   color:white;
+}
+.dropdown-menu>li>a:hover{
+   color:white;
+}
+
 
 .footer-basic-centered{
 	background-color: #2E593E;
