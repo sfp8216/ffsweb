@@ -1,6 +1,6 @@
 <?php
 require_once("includes/funcs/includes.php");
-generateHead("");
+generateHead("Pricing");
 ?>
 
 	<table class="text-center" >

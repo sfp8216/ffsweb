@@ -1,6 +1,6 @@
 <?php
 require_once("includes/funcs/includes.php");
-generateHead("");
+generateHead("Contact");
 ?>
 
 Contact Us!

@@ -1,6 +1,6 @@
 <?php
 require_once("includes/funcs/includes.php");
-generateHead("");
+generateHead("Home");
 ?>
 <h3>Who we are</h3>
  <p>

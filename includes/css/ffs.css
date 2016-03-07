@@ -100,12 +100,20 @@ text-align:center;
 }
 
 /*Testimonials*/
-.testimonials li:nth-child(odd){
+.testimonials li{
 	font-size: 14pt;
-	padding:20px 0px 0px 0px;
+	padding:20px;
+	margin-bottom:20px;
 	list-style-type:none;
+	background:white;
+	box-shadow: -15px 15px 20px #2E593E;
+	border-radius:20px;
+	
 }
-.testimonials li:nth-child(even){
+.testimonials li span{
+	margin-top:10px;
+	display:block;
+	font-size:12pt;
 	list-style-type:none;
 }
 
@@ -187,5 +195,8 @@ text-align:center;
     .centerBit{
         width:80%;
     }
+	.fs-header{
+	text-align:right;
+	}
 
 }

@@ -1,6 +1,6 @@
 <?php
 require_once("includes/funcs/includes.php");
-generateHead("");
+generateHead("Services");
 ?>
 
 <a href="#" id="middleschool"></a>

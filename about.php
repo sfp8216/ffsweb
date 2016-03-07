@@ -1,6 +1,6 @@
 <?php
 require_once("includes/funcs/includes.php");
-generateHead("");
+generateHead("About Us");
 ?>
     <div class="row">
         <div class="col-md-12">
