@@ -101,9 +101,32 @@ echo "</div><!--Main Body  -->
   </body>
 </html>";
 }
-
 function showQuote(){
-$quote = ["Good", "Bad","Whatever"];
+$quote = array(
+1 => "Outstanding teaching abilities. My math knowledge has only
+        grown higher since she started tutoring me.",
+2 => "Ever since I started learning with Dr. Stein, I feel like I'm, for
+         the first time ever, actually understanding the material.",
+3 => "I am impressed with Dr. Stein's innate ability to focus in on a
+     student's strengths and weaknesses and develop a tutoring program
+     tailored to meet that student's needs.",
+4 =>  "Dr. Stein is a wonderful teacher. I feel that no matter how
+         difficult the subject, she always makes sure I know it in
+          the end. Thank you.",
+5 => "Dr. Stein is by far the best tutor that I have had and
+        without her, I probably wouldn’t have a chance at passing
+        the algebra Regents.",
+6 => "A wonderful tutor, dedicated and caring, who knows the material
+        and teaches it wonderfully, from biology to algebra, geometry,
+        or chemistry. Whatever it may be, Dr. Stein is the best by far!"
+//7 => "Author7",
+//8 => "Author8",
+//9 => "Author9",
+//10 => "Author10"
+);
+$randomQuote = rand(1,6);
+echo $quote[$randomQuote];
+
 
 }
 

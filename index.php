@@ -2,6 +2,13 @@
 require_once("includes/funcs/includes.php");
 generateHead("Home");
 ?>
+<div class='row'>
+<div class='col-md-8 col-md-offset-2 text-center alert-info'>
+<?php
+showQuote();
+?>
+</div>
+</div>
 <h3>Who we are</h3>
  <p>
  Frank ‘N Stein and Son, LLC, is a privately-owned academic tutoring company.
