@@ -2,7 +2,10 @@
 require_once("includes/funcs/includes.php");
 generateHead("Pricing");
 ?>
-
+<div class="row">
+<div class="col-md-12 text-center title-head page-header"><h2>Pricing</h2></div>
+</div>
+<div class='content'>
 	<table class="text-center" >
         <tr><td  colspan="3" class='title-head' style="font-size:24pt;">Professional Tutoring Services</td></tr>
         	<tr>
@@ -39,6 +42,7 @@ generateHead("Pricing");
             	<td colspan="3"> *All packages above are pre-paid and non-transferable. Refunds and exchanges cannot be granted. Clients will be charged for appointments scheduled but not attended (no show) and not canceled at least 24 hours in advance.</td>
             </tr>
          </table>
+		 </div>
 <?php
 footer("","");
 ?>

@@ -2,7 +2,10 @@
 require_once("includes/funcs/includes.php");
 generateHead("Services");
 ?>
-
+<div class="row">
+<div class="col-md-12 text-center title-head page-header"><h2>We offer a variety of educational services. Take a look!</h2></div>
+</div>
+<div class='content'>
 <a href="#" id="middleschool"></a>
 <h2 class='title-head'>Grades 6 - 8</h2>
 We offer tutoring in most middle school level courses, including:
@@ -83,6 +86,7 @@ in both Rochester, New York and Chicago, Illinois.
 Dr. Stein is available to work with students one-on-one to create great essays for
 college applications or other writing assignments.  She can help students brainstorm
 ideas, write an outline, write the body of the essay, or proofread and edit a completed essay.
+</div>
 <?php
 footer("","scripts.js");
 ?>

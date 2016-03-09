@@ -18,29 +18,3 @@ $(function() {
   });
 });
 
-(function() {
-    var quotes = $(".quotes");
-    var quoteIndex = -1;
-    function showNextQuote() {
-        ++quoteIndex;
-        quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(5000)
-            .delay(20000)
-            .fadeOut(5000, showNextQuote);
-    }
-    showNextQuote();
-})();
-
-var grabBag = [1,2,3,4,5,6,7,8,9,10];
-
-// randomize order of elements with a sort function that randomly returns -1/0/1
-grabBag.sort(function(xx,yy){ return Math.floor(Math.random() * 3) - 1; })
-
-function getNextRandom(){
-    return grabBag.shift();
-};
-
-var originalLength = grabBag.length;
-for(var i = 0; i < originalLength .length; i++){
-    console.log(getNextRandom());
-}

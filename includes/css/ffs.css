@@ -40,7 +40,7 @@ font-size:18px;
     color:white;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
-	text-align: center;
+	text-align: left;
 	font: normal 16px sans-serif;
 }
 .fs-nav{
@@ -49,6 +49,10 @@ background-color:#2E593E;
 }
 .fs-nav a{
 color:white;
+}
+.quotes{
+	display:none;
+	text-align:left;
 }
 .fs-nav ul li a:hover{
 background:orange;
@@ -129,8 +133,12 @@ text-align:center;
 }
 
 /*Testimonials*/
+.content{
+	background:white;
+	box-shadow: -15px 15px 50px #2E593E;
+	padding:20px;
+}
 .testimonials{
-	
 	background:white;
 	box-shadow: -15px 15px 50px #2E593E;
 }
@@ -229,6 +237,17 @@ text-align:center;
     }
 	.fs-header{
 	text-align:right;
+	}
+	/*Testimonials*/
+	.testimonials ul{
+		padding:0;
+		margin:0;
+	}
+	.testimonials li{
+		font-size:12pt;
+	}
+	.testimonials li span{
+		font-size:10pt;
 	}
 
 }

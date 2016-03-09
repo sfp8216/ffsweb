@@ -2,12 +2,16 @@
 require_once("includes/funcs/includes.php");
 generateHead("About Us");
 ?>
+<div class="row">
+<div class="col-md-12 text-center title-head"><h2>About us!</h2></div>
+</div>
+<div class='content'>
     <div class="row">
 	<div class='col-md-12 text-center'>
 		<h2 class='title-head'>Dr. Stein</h2>
 	</div>
         <div class="col-md-12">
-    <img src="includes/img/drstein.jpg" alt="" style="float:right;" class="cpic" />
+    <img src="includes/img/drstein.jpg" alt="" style="float:right;" class="cpic img-responsive" />
             Dr. Stein is a graduate of the University of Rochester and Scholl College
             of Podiatric Medicine in Chicago, Illinois. She has additionally attended
             St. John Fisher College. She holds degrees in English, Biology, and
@@ -27,7 +31,7 @@ generateHead("About Us");
 		<h2 class='title-head'>Eric Cohen</h2>
 	</div>
         <div class="col-md-12">
-        <img src="includes/img/eric.jpg" alt="" style="float:left;" class="epic"/>
+        <img src="includes/img/eric.jpg" alt="" style="float:left;" class="epic img-responsive"/>
             Eric Cohen holds a degree in Engineering Science from the University of Rochester
             and in the past has held several engineering positions, including a research
             position at NASA. He ultimately decided to change careers, and he has been
@@ -39,6 +43,7 @@ generateHead("About Us");
             his dog, Koda, create gourmet meals, and watch football.
         </div>
     </div>
+	</div>
 <?php
 footer("","");
 ?>

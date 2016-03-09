@@ -9,6 +9,8 @@ fadeQuote();
 ?>
 </div>
 </div>
+<br>
+<div class='content'>
 <h2 class='title-head'>Who we are</h2>
  <p>
  Frank ‘N Stein and Son, LLC, is a privately-owned academic tutoring company.
@@ -29,6 +31,8 @@ corporate academic program.  All of our tutoring is one-on-one, and every
 lesson is tailored to the needs of the individual student.  Our business
 philosophy is to treat every student as if he or she were our only student.
  </p>
+ </div>
+
 <?php
 footer("","scripts.js");
 ?>
