@@ -3,6 +3,9 @@ require_once("includes/funcs/includes.php");
 generateHead("About Us");
 ?>
     <div class="row">
+	<div class='col-md-12 text-center'>
+		<h2 class='title-head'>Dr. Stein</h2>
+	</div>
         <div class="col-md-12">
     <img src="includes/img/drstein.jpg" alt="" style="float:right;" class="cpic" />
             Dr. Stein is a graduate of the University of Rochester and Scholl College
@@ -20,6 +23,9 @@ generateHead("About Us");
     </div>
     <hr>
     <div class="row">
+		<div class='col-md-12 text-center'>
+		<h2 class='title-head'>Eric Cohen</h2>
+	</div>
         <div class="col-md-12">
         <img src="includes/img/eric.jpg" alt="" style="float:left;" class="epic"/>
             Eric Cohen holds a degree in Engineering Science from the University of Rochester

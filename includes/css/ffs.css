@@ -1,3 +1,27 @@
+/*Fonts */
+/****
+* Kalam: Header "Frank 'N Stein and Son, LLC"
+* @import url(https://fonts.googleapis.com/css?family=Kalam);
+****/
+@import url(https://fonts.googleapis.com/css?family=Kalam);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+.brand{
+	font-family:Kalam;
+}
+
+/****
+* Oswald: Titles
+* @import url(https://fonts.googleapis.com/css?family=Oswald);
+****/
+
+/****
+* COLORS
+* Green: #2E593E
+* Light Blue: #C4DBFF
+****/
+.title-head{
+	font-family:Oswald;
+}
 /*General Styles*/
 .jumbotron{
 padding-right:66px;
@@ -5,10 +29,12 @@ padding-left:66px;
 margin-left:auto;
 margin-right:auto;
 }
-/*Overriden styles*/
-.jumbotron p{
-	font-size:12pt;
+.jumbotron, .jumbotron p, .jumbotron .container{
+	
+font-family:Helvetica Neue;
+font-size:18px;
 }
+/*Overriden styles*/
 .fs-header{
     background-color: #2E593E;
     color:white;
@@ -98,22 +124,28 @@ box-shadow: 10px red;
 .motto{
 text-align:center;
 }
+.quotes{
+	display:none;
+}
 
 /*Testimonials*/
-.testimonials li{
-	font-size: 14pt;
-	padding:20px;
-	margin-bottom:20px;
-	list-style-type:none;
-	background:white;
-	box-shadow: -15px 15px 20px #2E593E;
-	border-radius:20px;
+.testimonials{
 	
+	background:white;
+	box-shadow: -15px 15px 50px #2E593E;
 }
+.testimonials li{
+	font-size: 16pt;
+	padding:20px;
+	margin-bottom:10px;
+	list-style-type:none;
+}
+
 .testimonials li span{
 	margin-top:10px;
 	display:block;
-	font-size:12pt;
+	font-size:14pt;
+	font-weight:bold;
 	list-style-type:none;
 }
 

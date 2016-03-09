@@ -4,7 +4,7 @@ generateHead("Services");
 ?>
 
 <a href="#" id="middleschool"></a>
-<h2>Grades 6 - 8</h2>
+<h2 class='title-head'>Grades 6 - 8</h2>
 We offer tutoring in most middle school level courses, including:
 <br>
 <ul>
@@ -30,7 +30,7 @@ strengths, and focuses on creating a positive, fun learning experience.
 <br>
 <br>
 <a href="#" id="highschool"></a>
-<h2>Grades 9-12</h2>
+<h2 class='title-head'>Grades 9-12</h2>
 We offer tutoring in a number of high school subjects:
 <br>
 <ul>
@@ -54,7 +54,7 @@ Mr. Eric Cohen holds a degree in Engineering Science from the University of Roch
 Eric brings to Frank ‘N Stein and Son his extensive experience in teaching and
 tutoring advanced math and science courses.
 <a href="#" id="sat"></a>
-<h2>SAT/ACT/TEAS/TASC/GED</h2>
+<h2 class='title-head'>SAT/ACT/TEAS/TASC/GED</h2>
 Frank 'N Stein and Son will help you prepare for standardized tests, including:
 <ul>
 <li>SAT</li>
@@ -71,7 +71,7 @@ Dr. Stein holds a BA in English from the University of Rochester and BS in biolo
 and DPM degrees from Scholl College of Podiatric Medicine in Chicago, Illinois.
 
 <a href="#" id="esl"></a>
-<h2>ESL/ESOL</h2>
+<h2 class='title-head'>ESL/ESOL</h2>
 Dr. Stein is available to teach English as a Second Language with an emphasis on English
 conversation.  Depending on the needs/desire of the student, sessions can include
 instruction in English writing and grammar.  Dr. Stein holds a BA in English from
@@ -79,7 +79,7 @@ the University of Rochester and her experience includes teaching ESL at Berlitz
 in both Rochester, New York and Chicago, Illinois.
 
 <a href="#" id="essay"></a>
-<h2>Essay Assistance and Editing</h2>
+<h2 class='title-head'>Essay Assistance and Editing</h2>
 Dr. Stein is available to work with students one-on-one to create great essays for
 college applications or other writing assignments.  She can help students brainstorm
 ideas, write an outline, write the body of the essay, or proofread and edit a completed essay.

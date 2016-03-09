@@ -22,8 +22,8 @@ function generateHead($breadcrum){
   <div class='col-md-offset-1 col-md-2'>
 	<img class='img-responsive pull-left' src='includes/img/logo.png'/>
 	</div>
-	<div class='col-md-6'>
-    <h1>Frank 'N Stein and Son</h1>
+	<div class='col-md-6 text-left'>
+    <h1 class='brand'>Frank 'N Stein and Son</h1>
     <h5>Professional Tutoring, Test Prep, and Learning</h5>
     <h3>(585)-451-9250</h3>
     <h3>Brighton, New York</h3>
@@ -66,15 +66,14 @@ function generateHead($breadcrum){
 ";
 }
 function addScripts($scripts){
-	$includeScripts = "";
-	$includeScripts +=  "<script src='includes/js/"+$scripts+"'></script>";
+	$includeScripts =  "<script src='includes/js/$scripts'></script>";
 echo $includeScripts;
 }
 
 function footer($breadcrum, $scripts){
 echo "</div><!--Main Body  -->
 		<footer class='footer-basic-centered'>
-			<p class='footer-company-motto'>Where every student is our only student!</p>
+			<p class='footer-company-motto'>Where we treat every student like our only student!</p>
 			<p class='footer-links'>
 				<a href='index.php'>Home</a>
 				·
@@ -126,8 +125,94 @@ $quote = array(
 );
 $randomQuote = rand(1,6);
 echo $quote[$randomQuote];
+}
+function showTestimonials(){
+$testimonials = array(
+"Dr. Stein is a creative, caring teacher. She has successfully tutored a
+number of our students. She works hard to understand each child's needs
+and learning style - essential components for success" =>
+"- Lea E. Goldstein Principal Derech HaTorah of Rochester",
+"I am impressed with Dr. Stein's innate ability to focus in on a student's 
+strengths and weaknesses and develop a tutoring program tailored to meet that student's needs." =>
+"-Mary Stucki Resource Teacher Rochester City School District",
+"Ever since I started learning with Dr. Stein, I feel like I'm, for the 
+first time ever, actually understanding the material." =>
+"-Ben H.",
+"Outstanding teaching abilities. My math knowledge has only grown 
+higher since she started tutoring me." =>
+"-Shua R.",
+"Dr. Stein is a wonderful teacher. I feel that no matter how difficult 
+the subject, she always makes sure I know it in the end. Thank you." =>
+"- Ben R.",
+"I recently had the pleasure of working with Dr. Stein as my math tutor. 
+As an adult learner with very specific needs and a tight time frame, 
+I was looking for a teacher who could adapt to my learning style. 
+After seeing a couple of different tutors, it was clear Dr. Stein was 
+the right choice. I feel my work with her was the main reason 
+I was able to complete my tasks so well."=>
+"-Joseph Windheim",
+"Dr. Stein, my tutor, has helped me through two maths, algebra and 
+geometry, and now chemistry. She has been the best tutor I’ve ever had. 
+I’m not very bright in mathematics, but with her help, I’ve passed 
+all my Regents. Thanks."=>
+"-M. Bernstein",
+"Is there someone out there with a clear understanding of math and 
+science? Is there someone out there with excellent teaching skills 
+and a pleasant personality? The answer is yes. Dr. Stein is her name 
+and tutoring is her game. Over the past year and a half, Dr. Stein 
+has helped me get a clear understanding of math and science and has 
+helped me do well on my Regents. I highly recommend her."=>
+"-E. Menasse",
+"Dr. Stein is by far the best tutor that I have had and without her, 
+I probably wouldn’t have a chance at passing the algebra Regents."=>
+"-Y. Dyman",
+"A wonderful tutor, dedicated and caring, who knows the material and 
+teaches it wonderfully, from biology to algebra, geometry, or 
+chemistry. Whatever it may be, Dr. Stein is the best by far!"=>
+"-M. Adler");
+foreach($testimonials as $quote=>$author){
+	echo "<li>
+	$quote
+		  <span>
+		$author
+		</span>
+    </li>";
+}
+}
 
-
+function fadeQuote(){
+	echo"<span class='quotes'>Dr. Stein is a creative, caring teacher. She has successfully tutored a
+number of our students. She works hard to understand each child's needs
+and learning style - essential components for success</span>
+<span class='quotes'>I am impressed with Dr. Stein's innate ability to focus in on a student's 
+strengths and weaknesses and develop a tutoring program tailored to meet that student's needs.</span> 
+<span class='quotes'>Ever since I started learning with Dr. Stein, I feel like I'm, for the 
+first time ever, actually understanding the material.</span> 
+<span class='quotes'>Outstanding teaching abilities. My math knowledge has only grown 
+higher since she started tutoring me.</span>
+<span class='quotes'>Dr. Stein is a wonderful teacher. I feel that no matter how difficult 
+the subject, she always makes sure I know it in the end. Thank you.</span> 
+<span class='quotes'>I recently had the pleasure of working with Dr. Stein as my math tutor. 
+As an adult learner with very specific needs and a tight time frame, 
+I was looking for a teacher who could adapt to my learning style. 
+After seeing a couple of different tutors, it was clear Dr. Stein was 
+the right choice. I feel my work with her was the main reason 
+I was able to complete my tasks so well.</span>
+<span class='quotes'>Dr. Stein, my tutor, has helped me through two maths, algebra and 
+geometry, and now chemistry. She has been the best tutor I’ve ever had. 
+I’m not very bright in mathematics, but with her help, I’ve passed 
+all my Regents. Thanks.</span>
+<span class='quotes'>Is there someone out there with a clear understanding of math and 
+science? Is there someone out there with excellent teaching skills 
+and a pleasant personality? The answer is yes. Dr. Stein is her name 
+and tutoring is her game. Over the past year and a half, Dr. Stein 
+has helped me get a clear understanding of math and science and has 
+helped me do well on my Regents. I highly recommend her.</span>
+<span class='quotes'>Dr. Stein is by far the best tutor that I have had and without her, 
+I probably wouldn’t have a chance at passing the algebra Regents.</span>
+<span class='quotes'>A wonderful tutor, dedicated and caring, who knows the material and 
+teaches it wonderfully, from biology to algebra, geometry, or 
+chemistry. Whatever it may be, Dr. Stein is the best by far!</span>";
 }
 
 ?>

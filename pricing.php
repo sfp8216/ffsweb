@@ -4,7 +4,7 @@ generateHead("Pricing");
 ?>
 
 	<table class="text-center" >
-        <tr><td  colspan="3" style="font-size:24pt;">Professional Tutoring Services</td></tr>
+        <tr><td  colspan="3" class='title-head' style="font-size:24pt;">Professional Tutoring Services</td></tr>
         	<tr>
             	<td>Sunday - Thursday</td>
                 <td>---</td>
@@ -15,7 +15,7 @@ generateHead("Pricing");
                 <td>---</td>
                 <td>Please call for times</td>
             </tr>
- <tr><td  colspan="3" style="font-size:16pt; font-weight:bold;">Pricing</td></tr>
+ <tr><td  colspan="3" class='title-head' style="font-size:16pt; font-weight:bold;">Pricing</td></tr>
         	<tr><td colspan="3" style="font-weight:bold;">Private Individual Session</td></tr>
             <tr>
                 <td></td>
@@ -26,7 +26,7 @@ generateHead("Pricing");
                 <td colspan="3">Payment is expected at the time of service. We gladly accept cash, check or Case Quickpay</td>
             </tr>
             <tr><td colspan="3" style="padding:5px 0;"></td></tr>
-            <tr><td colspan="3" style="font-weight:bold;font-size:14pt;">PACKAGES*</td></tr>
+            <tr><td colspan="3" class='title-head' style="font-weight:bold;font-size:14pt;">PACKAGES*</td></tr>
 			<tr>
                 <td></td>
                 <td>Available on request</td>
