@@ -3,7 +3,7 @@ require_once("includes/funcs/includes.php");
 generateHead("Services");
 ?>
 <div class="row">
-<div class="col-md-12 text-center title-head page-header"><h2>We offer a variety of educational services. Take a look!</h2></div>
+<div class="col-md-12 text-center title-head"><h2>We offer a variety of educational services. Take a look!</h2></div>
 </div>
 <div class='content'>
 <a href="#" id="middleschool"></a>
