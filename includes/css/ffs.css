@@ -30,7 +30,6 @@ margin-left:auto;
 margin-right:auto;
 }
 .jumbotron, .jumbotron p, .jumbotron .container{
-	
 font-family:Helvetica Neue;
 font-size:18px;
 }
@@ -59,6 +58,16 @@ background:orange;
 }
 .fs-nav ul li a:active, .fs-nav ul li a:focus{
 background:orange;
+}
+/* Index */
+.cycle-slideshow{
+	padding-bottom:5px;
+	text-align:center;
+}
+.cycle-slideshow h4{
+	margin:auto;
+	text-align:center;
+	padding:5px;
 }
 /*Nav*/
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{

@@ -184,12 +184,12 @@ foreach($testimonials as $quote=>$author){
 }
 
 function fadeQuote(){
-	echo "' <div class='cycle-slideshow' 
+	echo "<div class='cycle-slideshow' 
     data-cycle-fx='fade' 
-    data-cycle-timeout='2000'
-    data-cycle-slides='> h4'
+    data-cycle-timeout='20000'
+    data-cycle-slides='h4'
     >
-    <h4>I am impressed with Dr. Stein's innate ability to focus in on a student's 
+<h4>I am impressed with Dr. Stein's innate ability to focus in on a student's 
 strengths and weaknesses and develop a tutoring program tailored to meet that student's needs.</h4> 
 <h4>Ever since I started learning with Dr. Stein, I feel like I'm, for the 
 first time ever, actually understanding the material.</h4> 

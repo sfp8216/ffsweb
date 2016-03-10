@@ -3,7 +3,7 @@ require_once("includes/funcs/includes.php");
 generateHead("Home");
 ?>
 <div class='row'>
-<div class='col-md-12 text-center alert-info'>
+<div class='col-md-10 col-md-offset-1 text-center alert-info'>
 <?php
 fadeQuote();
 ?>
