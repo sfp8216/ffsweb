@@ -1,0 +1,296 @@
+/*Fonts */
+/****
+* Kalam: Header "Frank 'N Stein and Son, LLC"
+* @import url(https://fonts.googleapis.com/css?family=Kalam);
+****/
+@import url(https://fonts.googleapis.com/css?family=Kalam);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.brand{
+	font-family:Kalam;
+}
+
+/****
+* Oswald: Titles
+* @import url(https://fonts.googleapis.com/css?family=Oswald);
+****/
+
+/****
+* Nunito
+*@import url(https://fonts.googleapis.com/css?family=Nunito);
+****/
+
+/****
+* COLORS
+* Green: #2E593E
+* Light Blue: #C4DBFF
+****/
+.title-head{
+	font-family:Oswald;
+}
+/*General Styles*/
+.jumbotron{
+padding-right:66px;
+padding-left:66px;
+margin-left:auto;
+margin-right:auto;
+padding-top:20px;
+}
+.jumbotron, .jumbotron p, .jumbotron .container{
+font-family:Montserrat;
+font-size:15px;
+}
+/*Overriden styles*/
+.fs-header{
+    background-color: #2E593E;
+    color:white;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	text-align: left;
+	font: normal 16px sans-serif;
+}
+.fs-nav{
+font-size:20pt;
+background-color:#2E593E;
+}
+.fs-nav a{
+color:white;
+}
+.quotes{
+	display:none;
+	text-align:left;
+}
+.fs-nav ul li a:hover{
+background:orange;
+}
+.fs-nav ul li a:active, .fs-nav ul li a:focus{
+background:orange;
+}
+/* Index */
+.cycle-slideshow{
+	
+	text-align:center;
+}
+.cycle-slideshow h4{
+	margin:auto;
+	text-align:center;
+	padding:5px;
+}
+/*Nav*/
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+background:orange;
+}
+.dropdown-menu{
+  width:100%;
+  background-color:#2E593E;
+}
+.dropdown-menu>li>a{
+   color:white;
+}
+.dropdown-menu>li>a:hover{
+   color:white;
+}
+
+
+.footer-basic-centered{
+	background-color: #2E593E;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+	padding: 45px;
+	margin-top: 80px;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  white;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+/*Main page*/
+
+.centerBit{
+width:50%;
+min-height:250px;
+margin-left:auto;
+margin-right:auto;
+border:5px solid green;
+border-radius:20px;
+padding:20px;
+box-shadow: 10px red;
+}
+.motto{
+text-align:center;
+}
+.quotes{
+	display:none;
+}
+
+/*Testimonials*/
+.content{
+	background:white;
+	box-shadow: -15px 15px 50px #2E593E;
+	padding:20px;
+}
+.testimonials{
+	background:white;
+	box-shadow: -15px 15px 50px #2E593E;
+}
+.testimonials li{
+	font-size: 15pt;
+	padding:20px;
+	margin-bottom:10px;
+	list-style-type:none;
+}
+
+.testimonials li span{
+	margin-top:10px;
+	display:block;
+	font-size:10pt;
+	font-weight:bold;
+	list-style-type:none;
+}
+/*Services*/
+.extra-break{
+	word-wrap:normal;
+}
+
+/*About us*/
+    .cpic{
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+	padding:15px;
+	padding-left:30px;
+	padding-bottom:30px;
+    }
+    .epic{
+   -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+	padding:15px;
+	padding-right:50px;
+    }
+/* HR STYLES */
+
+hr{
+    padding: 0;
+    border: none;
+    border-top: medium double #bf4040;
+    color: #bf4040;
+    text-align: center;
+}
+hr:after {
+    content: "💡";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+	color:#e6e600;
+}
+
+@media (max-width: 600px) {
+.jumbotron{
+	padding-right:33px;
+padding-left:33px;
+}
+ .nav-justified .open .dropdown-menu {
+    position: relative;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .nav-justified .open .dropdown-menu > li > a,
+  .nav-justified .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+    font-size:20pt;
+  }
+  .nav-justified .open .dropdown-menu > li > a {
+      width:100%;
+      text-align:center;
+	  padding-top:10px;
+	  padding-bottom:10px;
+	  line-height: 20px;
+	  color:white;
+  }
+  .nav-justified .open .dropdown-menu{
+	  background:#57A875;
+  }
+
+  .nav-justified .open .dropdown-menu > li > a:hover,
+  .nav-justified .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+    .fs-header{
+        padding:05px;
+    }
+    /*Main Page*/
+    .centerBit{
+        width:80%;
+    }
+	.fs-header{
+	text-align:right;
+	}
+	/*Testimonials*/
+	.testimonials ul{
+		padding:0;
+		margin:0;
+	}
+	.testimonials li{
+		font-size:12pt;
+	}
+	.testimonials li span{
+		font-size:10pt;
+	}
+
+}
