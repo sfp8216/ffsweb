@@ -20,7 +20,7 @@ function generateHead($breadcrum){
   <div class='fs-header'>
   <div class='container'>
   <div class='col-md-offset-1 col-md-2'>
-	<img class='img-responsive pull-left' src='includes/img/logo.png'/>
+	<img class='img-responsive pull-left' src='includes/img/logo.png' />
 	</div>
 	<div class='col-md-6'>
     <h1 class='brand'>Frank 'N Stein and Son</h1>

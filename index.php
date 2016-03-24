@@ -24,6 +24,7 @@ fadeQuote();
  We also provide reading, writing, and conversational skills for ESL students
  and assistance in writing and editing college application essays.
 </p>
+<hr/>
 <h2 class='title-head'>Our Philosophy</h2>
 <p>
 Because we are a small, privately-owned company, we are not bound to follow a

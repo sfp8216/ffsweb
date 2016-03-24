@@ -32,6 +32,7 @@ strengths, and focuses on creating a positive, fun learning experience.
 
 <br>
 <br>
+<hr>
 <a href="#" id="highschool"></a>
 <h2 class='title-head'>Grades 9-12</h2>
 We offer tutoring in a number of high school subjects:
@@ -56,8 +57,10 @@ student's strengths, and focuses on creating a positive and comfortable learning
 Mr. Eric Cohen holds a degree in Engineering Science from the University of Rochester.
 Eric brings to Frank ‘N Stein and Son his extensive experience in teaching and
 tutoring advanced math and science courses.
+
+<hr>
 <a href="#" id="sat"></a>
-<h2 class='title-head'>SAT/ACT/TEAS/TASC/GED</h2>
+<h2 class='title-head extra-break'>SAT / ACT / TEAS / TASC / GED</h2>
 Frank 'N Stein and Son will help you prepare for standardized tests, including:
 <ul>
 <li>SAT</li>
@@ -73,6 +76,7 @@ She will help students with writing skills for the essay portion of standardized
 Dr. Stein holds a BA in English from the University of Rochester and BS in biology
 and DPM degrees from Scholl College of Podiatric Medicine in Chicago, Illinois.
 
+<hr>
 <a href="#" id="esl"></a>
 <h2 class='title-head'>ESL/ESOL</h2>
 Dr. Stein is available to teach English as a Second Language with an emphasis on English
@@ -81,6 +85,7 @@ instruction in English writing and grammar.  Dr. Stein holds a BA in English fro
 the University of Rochester and her experience includes teaching ESL at Berlitz
 in both Rochester, New York and Chicago, Illinois.
 
+<hr>
 <a href="#" id="essay"></a>
 <h2 class='title-head'>Essay Assistance and Editing</h2>
 Dr. Stein is available to work with students one-on-one to create great essays for

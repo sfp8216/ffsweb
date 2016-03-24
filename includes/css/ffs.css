@@ -70,7 +70,7 @@ background:orange;
 }
 /* Index */
 .cycle-slideshow{
-	padding-bottom:5px;
+	
 	text-align:center;
 }
 .cycle-slideshow h4{
@@ -106,7 +106,7 @@ background:orange;
 }
 
 .footer-basic-centered .footer-company-motto{
-	color:  #8d9093;
+	color:  white;
 	font-size: 24px;
 	margin: 0;
 }
@@ -174,6 +174,10 @@ text-align:center;
 	font-weight:bold;
 	list-style-type:none;
 }
+/*Services*/
+.extra-break{
+	word-wrap:normal;
+}
 
 /*About us*/
     .cpic{
@@ -191,10 +195,31 @@ text-align:center;
 	padding:15px;
 	padding-right:50px;
     }
-/* If you don't want the footer to be responsive, remove these media queries */
+/* HR STYLES */
+
+hr{
+    padding: 0;
+    border: none;
+    border-top: medium double #bf4040;
+    color: #bf4040;
+    text-align: center;
+}
+hr:after {
+    content: "💡";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+	color:#e6e600;
+}
 
 @media (max-width: 600px) {
-
+.jumbotron{
+	padding-right:33px;
+padding-left:33px;
+}
  .nav-justified .open .dropdown-menu {
     position: relative;
     float: none;
